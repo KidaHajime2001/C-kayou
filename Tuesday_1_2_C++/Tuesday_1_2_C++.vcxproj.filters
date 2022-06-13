@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\SceneLoop">
+      <UniqueIdentifier>{a9fc65c7-2574-4851-a106-a9b7c2953628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{0c9ec5fe-6c4b-4484-b943-b75bdd99cf6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{c52ea770-807a-4504-9292-4719ffffa9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Game">
+      <UniqueIdentifier>{79b50cae-b3a4-4877-a1c7-b01ec5bef181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\GameOver">
+      <UniqueIdentifier>{f334263d-d7da-4dec-af17-f338f25d2932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\GameClear">
+      <UniqueIdentifier>{b4c7e755-022e-429a-b185-862d7c0f9cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Base">
+      <UniqueIdentifier>{89b40905-1082-4e69-8523-7f461fdb902e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\TestPlayer">
+      <UniqueIdentifier>{1b65d1a0-371a-47b3-bd82-d3d52e221258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\TestCube">
+      <UniqueIdentifier>{c04438f9-ac37-437b-9dd4-8566183ca6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Collision">
+      <UniqueIdentifier>{3e811519-24d1-42fc-ab4a-8e371cd24def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor">
+      <UniqueIdentifier>{4d00091b-b7d4-4588-8d72-2bacc96eddf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManeger.cpp">
+      <Filter>ソース ファイル\SceneLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLooper.cpp">
+      <Filter>ソース ファイル\SceneLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClear.cpp">
+      <Filter>ソース ファイル\Scene\GameClear</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>ソース ファイル\Scene\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>ソース ファイル\Scene\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\TestPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManeger.cpp">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjActorTest.cpp">
+      <Filter>ソース ファイル\TestCube</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneManeger.h">
+      <Filter>ソース ファイル\SceneLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLooper.h">
+      <Filter>ソース ファイル\SceneLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ソース ファイル\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClear.h">
+      <Filter>ソース ファイル\Scene\GameClear</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>ソース ファイル\Scene\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>ソース ファイル\Scene\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTag.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ソース ファイル\TestPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTag.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManeger.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjActorTest.h">
+      <Filter>ソース ファイル\TestCube</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
