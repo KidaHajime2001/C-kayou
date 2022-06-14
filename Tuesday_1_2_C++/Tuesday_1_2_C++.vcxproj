@@ -150,6 +150,7 @@
     <ClCompile Include="GameClear.cpp" />
     <ClCompile Include="GameOver.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapCollider.cpp" />
     <ClCompile Include="ObjActorTest.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="SceneBase.cpp" />
@@ -159,12 +160,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h" />
+    <ClInclude Include="MapCollider.h" />
     <ClInclude Include="Collision.h" />
     <ClInclude Include="CollisionManeger.h" />
     <ClInclude Include="CollisionTag.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameClear.h" />
     <ClInclude Include="GameOver.h" />
+    <ClInclude Include="map.h" />
     <ClInclude Include="ObjActorTest.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="SceneTag.h" />

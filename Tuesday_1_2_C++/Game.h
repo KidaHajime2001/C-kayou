@@ -4,6 +4,7 @@
 #include"Player.h"
 #include"ObjActorTest.h"
 #include"CollisionManeger.h"
+#include"MapCollider.h"
 class Game :public SceneBase
 {
 public:
@@ -15,5 +16,6 @@ public:
 	SceneTag GetSceneTag() { return tag; };
 	vector<Actor*> Actors;
 	class CollisionManeger* mCM;
+	MapCollider* mapC;
 };
 

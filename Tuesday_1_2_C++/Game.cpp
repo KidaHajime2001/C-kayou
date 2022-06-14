@@ -2,7 +2,7 @@
 Game::Game()
 {
 	mCM = new CollisionManeger();
-
+	mapC = new MapCollider();
 
 	tag = SceneTag::GameMain;
 	clearFlag = false;
@@ -13,10 +13,11 @@ Game::Game()
 
 	for (auto actor:Actors)
 	{
-		mCM->AddCollision(actor->mCollision);
+		mCM->AddCollision(actor->GetCollision());
 	}
 
-
+    mapC->ReadFileStageSize("MAP/map.csv");
+	mapC->SetStageData("MAP/map.csv");
 }
 
 Game::~Game()

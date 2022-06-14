@@ -7,8 +7,12 @@ public:
 	virtual ~Actor();
 	virtual void Update();
 	virtual void Draw();
-	CollisionTag GetTag() { return tag; };
 	virtual void OnCollisionEnter(class Collision* otherCollision);
+
+	CollisionTag GetTag() { return tag; };
+	VECTOR GetPos() { return  pos; };
+	Collision* GetCollision() { return mCollision; };
+protected:
 	class Collision* mCollision;
 	CollisionTag tag;
 	VECTOR pos;

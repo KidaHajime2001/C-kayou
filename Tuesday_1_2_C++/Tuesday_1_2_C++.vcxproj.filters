@@ -87,6 +87,9 @@
     <ClCompile Include="ObjActorTest.cpp">
       <Filter>ソース ファイル\TestCube</Filter>
     </ClCompile>
+    <ClCompile Include="MapCollider.cpp">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SceneManeger.h">
@@ -130,6 +133,12 @@
     </ClInclude>
     <ClInclude Include="ObjActorTest.h">
       <Filter>ソース ファイル\TestCube</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ソース ファイル\TestCube</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCollider.h">
+      <Filter>ソース ファイル\Collision</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

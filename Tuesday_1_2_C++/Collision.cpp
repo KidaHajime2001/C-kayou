@@ -6,8 +6,8 @@ Collision::Collision(Actor* parent, int Height, int Width)
 {
 	mData.Height = Height;
 	mData.Width = Width;
-	mData.posX=mParent->pos.x;
-	mData.posY= mParent->pos.y;
+	mData.posX=mParent->GetPos().x;
+	mData.posY= mParent->GetPos().y;
 	mTag = mParent->GetTag();
 }
 
@@ -37,6 +37,6 @@ bool Collision::Cheak(Collision* otherObj)
 
 void Collision::Update()
 {
-	mData.posX = mParent->pos.x;
-	mData.posY = mParent->pos.y;
+	mData.posX = mParent->GetPos().x;
+	mData.posY = mParent->GetPos().y;
 }

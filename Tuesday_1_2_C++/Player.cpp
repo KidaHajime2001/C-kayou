@@ -38,8 +38,6 @@ void Player::Update()
 void Player::Draw()
 {
 	DrawBox(pos.x, pos.y, pos.x + mCollision->mData.Width, pos.y + mCollision->mData.Height, GetColor(255,0,0), false);
-	
-	
 
 }
 
@@ -47,8 +45,4 @@ void Player::Draw()
 void Player::OnCollisionEnter(Collision* otherCollison)
 {
 	DrawFormatString(pos.x, pos.y, GetColor(255, 0, 0), "%d", tag);
-	if (OnColiFlag)
-	{
-		DrawFormatString(pos.x + 10, pos.y + 10, GetColor(255, 0, 0), "Hit");
-	}
 }
