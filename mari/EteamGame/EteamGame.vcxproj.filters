@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="各画面">
+      <UniqueIdentifier>{4aab198a-53c5-4b07-8219-018b048d9d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="各画面\クリア画面">
+      <UniqueIdentifier>{d7da0536-697a-4e85-97a8-8eca77b7bb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="各画面\オーバー画面">
+      <UniqueIdentifier>{92e14c5f-8194-4fd5-b7e7-dcbdced0c59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="各画面\タイトル画面">
+      <UniqueIdentifier>{2b2f588a-7137-4b58-9caa-2fc5ba38d72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="各画面\ゲーム画面">
+      <UniqueIdentifier>{06c91533-176a-40c7-a443-1f026d1abfab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="各オブジェクト">
+      <UniqueIdentifier>{78ac74c2-93aa-4f25-9187-bd10350a5c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="各システム">
+      <UniqueIdentifier>{d6530ff8-0780-4823-a811-2a99ede04043}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>各画面</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>各画面\クリア画面</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>各画面\ゲーム画面</Filter>
+    </ClCompile>
+    <ClCompile Include="Over.cpp">
+      <Filter>各画面\オーバー画面</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>各画面\タイトル画面</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>各オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>各オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui.cpp">
+      <Filter>各オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>各システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>各オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>各オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal.cpp">
+      <Filter>各オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Coin.cpp">
+      <Filter>各オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Hit.cpp">
+      <Filter>各システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>各オブジェクト</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>各画面</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>各画面\クリア画面</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>各画面\ゲーム画面</Filter>
+    </ClInclude>
+    <ClInclude Include="Over.h">
+      <Filter>各画面\オーバー画面</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>各画面\タイトル画面</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>各オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>各オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui.h">
+      <Filter>各オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>各システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>各オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>各オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal.h">
+      <Filter>各オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>各オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Hit.h">
+      <Filter>各システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>各システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>各オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPoint.h">
+      <Filter>各オブジェクト</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

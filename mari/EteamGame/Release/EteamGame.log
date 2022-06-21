@@ -1,0 +1,48 @@
+﻿  Block.cpp
+  Clear.cpp
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Clear.cpp(36,48): warning C4554: '&': 演算子の優先順位に問題があります。かっこを使用して優先順位を明確にしてください
+  Collision.cpp
+  Game.cpp
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Game.cpp(56,48): warning C4554: '&': 演算子の優先順位に問題があります。かっこを使用して優先順位を明確にしてください
+  Goal.cpp
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Goal.cpp(27,18): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Goal.cpp(27,12): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  main.cpp
+  Mouse.cpp
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Mouse.cpp(10,7): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Mouse.cpp(11,7): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Mouse.cpp(30,27): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Mouse.cpp(30,15): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  Over.cpp
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Over.cpp(38,48): warning C4554: '&': 演算子の優先順位に問題があります。かっこを使用して優先順位を明確にしてください
+  Player.cpp
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(17,7): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(18,7): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(145,10): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(175,12): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(183,18): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(183,12): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(200,33): warning C4305: '初期化中': '__int64' から 'float' へ切り詰めます。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(205,16): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(216,17): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(216,11): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(220,15): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(221,15): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(230,35): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(234,35): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(243,35): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Player.cpp(247,35): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  Scene.cpp
+  Stage.cpp
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Stage.cpp(200,20): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Stage.cpp(200,13): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  Title.cpp
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Title.cpp(36,48): warning C4554: '&': 演算子の優先順位に問題があります。かっこを使用して優先順位を明確にしてください
+  Ui.cpp
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Ui.cpp(28,18): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\shota\OneDrive\デスクトップ\EteamGame\EteamGame\Ui.cpp(28,12): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 166 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  EteamGame.vcxproj -> C:\Users\shota\OneDrive\デスクトップ\EteamGame\Release\EteamGame.exe
